@@ -27,9 +27,9 @@ def main(start_time_hour, start_time_minute, watering_duration, watering_interva
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Watering timer code. Takes user input args and prints events to stdout")
-    parser.add_argument('start_time', metavar='start_time %s', help='start time in HHMM format')
+    parser.add_argument('start_time', metavar='start_time %s', help='start time in HHMM format with leading zeroes')
     parser.add_argument('watering_duration', metavar='watering_duration %s', help='watering duration in seconds')
-    parser.add_argument('watering_interval', metavar='watering_interval %s', help='watering interval in HHMM format')
+    parser.add_argument('watering_interval', metavar='watering_interval %s', help='watering interval in HHMM format with leading zeroes')
     args = parser.parse_args()
 
     main(int(args.start_time[0:2]), int(args.start_time[2:4]), int(args.watering_duration),

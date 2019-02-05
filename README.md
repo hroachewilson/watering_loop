@@ -13,9 +13,9 @@ Usage: water_me.py [-h] start_time %s watering_duration %s watering_interval %s
 Watering timer code. Takes user input args and prints events to stdout
 
 positional arguments:
-  start_time %s         start time in HHMM format
+  start_time %s         start time in HHMM format with leading zeroes
   watering_duration %s  watering duration in seconds
-  watering_interval %s  watering interval in HHMM format
+  watering_interval %s  watering interval in HHMM format with leading zeroes
 
 optional arguments:
   -h, --help            show this help message and exit
