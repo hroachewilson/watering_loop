@@ -7,8 +7,8 @@ The program will wait until the specified start time and then enter a watering l
 `water_me.py -h`
 
 
-```Usage: water_me.py [-h]
-                   start time %s watering_duration %s watering_interval %s
+```
+Usage: water_me.py [-h] start_time %s watering_duration %s watering_interval %s
 
 Watering timer code. Takes user input args and prints events to stdout
 
