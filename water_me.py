@@ -6,10 +6,10 @@ from datetime import datetime
 
 def main(start_time_hour, start_time_minute, watering_duration, watering_interval_hour, watering_interval_minute):
 
-    # This should loop once every 24 hours
+    # Watering loop, each cycle consists one application of water per watering cycle.
     while True:
 
-        # Sleep until start time is reached
+        # Sleep until start time is reached. Resets every 24 hours.
         current_time = datetime.now()
         while current_time.hour < start_time_hour:              # This loop will only break after start hour is reached,
             time.sleep(1)                                       # at which point it will only pass for remainder of 24h
