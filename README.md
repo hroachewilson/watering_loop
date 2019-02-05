@@ -2,7 +2,7 @@
 
 This is a simple program that will print out a placeholder statement for turning a relay on / off during a 24 hour watering cycle.
 
-The program will wait until the specified start time and then enter a watering loop, keeping a valve open for a given watering duration (for instance 20 seconds), repeating at a given watering interval (for instance 4 hours, 15 minutes).
+The program will wait until the specified start time and then enter a watering loop, keeping a valve open for a given watering duration, repeating at a given watering interval.
 
 `water_me.py -h`
 
