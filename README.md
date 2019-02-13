@@ -1,6 +1,6 @@
 # watering_loop
 
-This is a simple program that will print out a placeholder statement for turning a relay on / off during a 24 hour watering cycle.
+This is a simple program that will print out a placeholder statement to toggle a relay during a 24 hour watering cycle.
 
 The program will wait until the specified start time and then enter a watering loop, keeping a valve open for a given watering duration, repeating at a given watering interval.
 
